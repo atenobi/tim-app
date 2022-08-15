@@ -1,0 +1,25 @@
+.nav__menu {
+    position: fixed;
+    top: 0;
+    left: 3%;
+    width: 95%;
+    margin: 68px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #00000082;
+}
+
+.nav__menu__item {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.nav__menu__item:hover {
+    background-color: beige;
+    background-color: #cd2122;
+    border-radius: 5px;
+}
